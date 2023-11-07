@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tomcat-pod
+  labels:
+    type: appserver
+    author: intelliqit
+spec:
+  containers:
+    - name: mytomcat
+      image: tomee
+...

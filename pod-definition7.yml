@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: httpd-pod
+  labels:
+    type: webserver
+    author: intelliqit
+spec:
+  containers:
+    - name: myhttpd
+      image: httpd
+...
